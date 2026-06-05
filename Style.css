@@ -33,6 +33,42 @@
     color:#dc2626;
 }
 
+
+/* ===== Progress Bar ===== */
+
+.progress-wrapper {
+    margin-top: 15px;
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 18px;
+    background: #e8eef7;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.progress-fill {
+    height: 100%;
+    width: 60%; /* เปลี่ยนเปอร์เซ็นต์ตรงนี้ */
+    background: linear-gradient(90deg, #4facfe, #00c6ff);
+    border-radius: 50px;
+    transition: width 0.8s ease;
+}
+
+/* Hover Animation */
+.progress-bar:hover .progress-fill {
+    filter: brightness(1.1);
+}
 *{
   margin:0;
   padding:0;
