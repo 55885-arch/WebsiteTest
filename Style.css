@@ -17,6 +17,22 @@
   --radius:16px;
 }
 
+.status.done{
+    color:#16a34a;
+}
+
+.status.not.done{
+    color:#FF0004;
+}
+
+.status.pending{
+    color:#16a34a;
+}
+
+.status.late{
+    color:#dc2626;
+}
+
 *{
   margin:0;
   padding:0;
